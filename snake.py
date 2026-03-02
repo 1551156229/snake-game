@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 贪吃蛇游戏 - Snake Game
 支持键盘方向键控制，空格键暂停，Q键退出
@@ -129,3 +130,4 @@ def main(stdscr):
 
 if __name__ == "__main__":
     curses.wrapper(main)
+print('Hello from Claude Code test')
